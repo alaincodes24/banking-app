@@ -7,6 +7,9 @@ import Welcome from "./components/Welcome";
 // import customer1 from "./assets/pic-1.jpg";
 // import customer2 from "./assets/pic-2.jpg";
 // import customer3 from "./assets/pic-3.jpg";
+import Cards from "./components/Cards";
+import Greeting from "./components/Greeting";
+import ProductDashboard from "./components/ProductDashboad";
 
 function App() {
 	return (
@@ -56,7 +59,16 @@ function App() {
 
           {/* <Welcome /> */}
 
-          <Todo />
+          {/* <Todo /> */}
+
+          <Cards />
+
+          {/* <Greeting name="Patrick" />
+          <Greeting name="Isabella" />
+          <Greeting name="Phocas" />
+          <Greeting name="Cedrick" /> */}
+
+          <ProductDashboard />
 
 
 			{/* </div> */}
