@@ -10,6 +10,8 @@ import Welcome from "./components/Welcome";
 import Cards from "./components/Cards";
 import Greeting from "./components/Greeting";
 import ProductDashboard from "./components/ProductDashboad";
+// import Jokes from "./components/Jokes";
+import Users from "./components/Users";
 
 function App() {
 	return (
@@ -61,14 +63,20 @@ function App() {
 
           {/* <Todo /> */}
 
-          <Cards />
+          {/* <Cards /> */}
 
           {/* <Greeting name="Patrick" />
           <Greeting name="Isabella" />
           <Greeting name="Phocas" />
           <Greeting name="Cedrick" /> */}
 
-          <ProductDashboard />
+          {/* <ProductDashboard />s */}
+
+          {/* <Jokes /> */}
+
+          <Users />
+
+
 
 
 			{/* </div> */}
